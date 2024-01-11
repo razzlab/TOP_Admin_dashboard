@@ -79,6 +79,10 @@ nav>div{
 }
 input{
     width: 40%;
+    border-radius: 20px;
+    border: none;
+    background: #c7cfda;
+    height: 1.5rem;
 }
 button{
     color: white;
