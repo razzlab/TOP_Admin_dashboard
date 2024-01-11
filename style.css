@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+.dashboard{
+    width: 20vw;
+    font-size:larger;
+    background: #4d88d0;
+    color: white;
+
+}
+.dashboard>div>div{
+    display: flex;
+    padding-left: 1rem;
+    font-size:large;
+    
+
+}
+.dashboard>div>div>p{
+    padding-left: .5rem;
+    padding-top: 1rem;
+}
+svg{
+    height: 3rem;
+    fill: whitesmoke;
+}
+main{
+    width: 70vw;
+    background: #c7cfda;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    
+}
+nav>div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top:20px
+}
+.btns{
+    display: flex;
+    
+    gap: 20px;
+    
+}
+input{
+    width: 40%;
+}
