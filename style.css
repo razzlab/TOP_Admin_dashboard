@@ -10,29 +10,47 @@ body{
     font-size:larger;
     background: #4d88d0;
     color: white;
-    text-align: center;
+   
 
+}
+
+.dashboard>div{
+    margin-top: 20px;
 }
 .dashboard>div>div{
     display: flex;
     padding-left: 1rem;
-    font-size:larger;
+    height: 2.5rem;
     font-weight: bold;
-
+    
+}
+.icon{
+    height: 2rem;
+}
+.dashboard-1{
+    height: 3rem;
 }
 .dashboard>div>div>p{
     padding-left: .5rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .dashboard-2,
 .dashboard-3{
+    font-size: medium;    
+}
+.dashboard-2>div,
+.dashboard-3>div{
     font-size: medium;
+    display: flex;
+    align-items: center;
     
 }
 
 svg{
-    height: 3rem;
+    
     fill: whitesmoke;
+    height: 3rem;
 }
 main{
     width: 80vw;
@@ -61,4 +79,12 @@ nav>div{
 }
 input{
     width: 40%;
+}
+button{
+    color: white;
+    background: #3136d2;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 70px; 
+    border: none;
 }
