@@ -10,31 +10,40 @@ body{
     font-size:larger;
     background: #4d88d0;
     color: white;
+    text-align: center;
 
 }
 .dashboard>div>div{
     display: flex;
     padding-left: 1rem;
-    font-size:large;
-    
+    font-size:larger;
+    font-weight: bold;
 
 }
 .dashboard>div>div>p{
     padding-left: .5rem;
     padding-top: 1rem;
 }
+.dashboard-2,
+.dashboard-3{
+    font-size: medium;
+    
+}
+
 svg{
     height: 3rem;
     fill: whitesmoke;
 }
 main{
-    width: 70vw;
+    width: 80vw;
     background: #c7cfda;
 }
 nav{
     display: flex;
     flex-direction: column;
     background: #ffffff;
+    padding-bottom: 1rem;
+    box-shadow: 5px 5px  5px #8c99ac;
     
 }
 nav>div{
