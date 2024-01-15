@@ -73,7 +73,6 @@ nav>div{
 }
 .btns{
     display: flex;
-    
     gap: 20px;
     
 }
@@ -118,8 +117,27 @@ button{
     background: #ffffff;
     border-radius: 20px;
     padding: 10px;
+    
+}
+.trending{
+    grid-column: 7/9;
+    grid-row: 7/9;
 }
 .annoucements{
-    grid-row: 6/9;
+    grid-row: 1/7;
     grid-column: 7/9;
+}
+
+.annoucements>div>span,
+.trending>div>span{
+    padding: 5px;
+
+    
+
+}
+.annoucements>span,
+.trending>span{
+    padding: 5px;
+    
+
 }
