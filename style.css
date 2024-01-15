@@ -92,3 +92,34 @@ button{
     border-radius: 70px; 
     border: none;
 }
+
+.main-part{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 70vh;
+    margin: 10px;
+    margin: 10px;
+}
+.project{
+    grid-column: span 6;
+    grid-row: span 8;
+}
+.projectWrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+   margin: 5px;
+    grid-gap: 10px;
+}
+.projectWrapper>div,
+.annoucements>div,
+.trending>div{
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+}
+.annoucements{
+    grid-row: 6/9;
+    grid-column: 7/9;
+}
